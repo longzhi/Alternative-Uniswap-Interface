@@ -241,8 +241,22 @@ const GÖRLICoins = [
   },
 ]
 
+const SEPOLIACoins = [
+  {
+    name: "Ether",
+    abbr: "ETH",
+    address: "", // Weth address is fetched from the router
+  },
+  {
+    name: "FOLLOW",
+    abbr: "FOLLOW",
+    address: "0xdd2Fa16C99FAD22bB7A4dB49C54ddE6a6832AC60",
+  },
+]
+
 const COINS = new Map();
 COINS.set(chains.ChainId.MAINNET, MAINNETCoins);
+COINS.set(chains.ChainId.SEPOLIA, SEPOLIACoins);
 COINS.set(chains.ChainId.ROPSTEN, ROPSTENCoins);
 COINS.set(chains.ChainId.RINKEBY, RINKEBYCoins);
 COINS.set(chains.ChainId.GÖRLI, GÖRLICoins);
