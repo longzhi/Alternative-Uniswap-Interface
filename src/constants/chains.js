@@ -15,7 +15,8 @@ export const ChainId = {
 
 export const routerAddress = new Map();
 routerAddress.set(ChainId.MAINNET, "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D");
-routerAddress.set(ChainId.SEPOLIA, "0x8350d49A712936C8cCd33bE51812aE661C65ad96");
+// routerAddress.set(ChainId.SEPOLIA, "0x8350d49A712936C8cCd33bE51812aE661C65ad96");
+routerAddress.set(ChainId.SEPOLIA, "0x6590704d94b4f9fc11a3189bbab768522f7f71d4");
 routerAddress.set(ChainId.ROPSTEN, "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D");
 routerAddress.set(ChainId.RINKEBY, "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D");
 routerAddress.set(ChainId.GÖRLI, "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D");
