@@ -252,6 +252,11 @@ const SEPOLIACoins = [
     abbr: "FOLLOW",
     address: "0xdd2Fa16C99FAD22bB7A4dB49C54ddE6a6832AC60",
   },
+  {
+    name: "tDAI",
+    abbr: "DAI",
+    address: "0x53844F9577C2334e541Aec7Df7174ECe5dF1fCf0",
+  },
 ]
 
 const COINS = new Map();
